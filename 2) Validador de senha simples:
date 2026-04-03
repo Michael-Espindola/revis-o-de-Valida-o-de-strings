@@ -1,0 +1,12 @@
+2) Validador de Senha Simples:
+
+Um código que verifica se a senha escolhida não 
+tem símbolos proibidos, aceitando apenas letras e números (usando isalnum).
+
+RESOLUÇÃO:
+
+senha = input("digite uma senha: ")
+  if senha.isalnum():
+    print("senha válida")
+  else:
+    print("senha inválida")
