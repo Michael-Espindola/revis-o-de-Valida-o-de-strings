@@ -1,0 +1,13 @@
+3) Calculadora de Idade: 
+
+Um programa que só deixa a conta continuar se a pessoa digitar apenas números na idade (usando isdigit).
+
+RESOLUÇÃO:
+
+nascimento = input("informe a sua data de nascimento: ")
+idade = 2026 - nascimento
+  
+  if nascimento.isdigit():
+    print(f "a sua idade é {idade})
+  else:
+    print("data de nascimento inválida! digite apenas números")
