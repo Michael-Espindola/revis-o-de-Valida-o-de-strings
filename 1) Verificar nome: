@@ -1,0 +1,11 @@
+1) Verificador de Nome: 
+
+Um código que pede o nome do usuário e avisa se ele digitou algum número por erro (usando isalpha).
+
+RESOLUÇÃO:
+
+nome = input("informe o nome: ")
+  if nome.isalpha():
+    print("nome válido")
+  else:
+    print("nome inválido"
