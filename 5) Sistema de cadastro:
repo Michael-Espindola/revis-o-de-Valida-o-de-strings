@@ -1,0 +1,15 @@
+5) Sistema de Cadastro: 
+
+Um pequeno formulário que valida se o "Código do Produto" contém
+apenas números antes de salvar no banco de dados (usando isdigit).
+
+RESOLUÇÃO:
+
+produto = input("informe o nome do produto: ")
+codigo = input ("informe o codigo do produto:")
+
+  if codigo.isdgit():
+    print("produto cadastrado: ")
+    print (f"{produto} {codigo}
+  else:
+    print("codigo invalido! digite apenas numeros")
