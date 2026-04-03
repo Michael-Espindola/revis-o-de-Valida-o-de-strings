@@ -1,0 +1,13 @@
+4) Filtro de Placa de Carro: 
+
+Um código que verifica se uma parte da placa contém apenas as letras (usando isalpha).
+
+RESOLUÇÃO:
+
+placa = input("digite a placa do veiculo: ")
+
+  if placa [ : 4] in placa.isalpha() and placa [4: ] in placa.isdigit():
+    print("placa válida")
+  else:
+    print("placa invalida")
+
